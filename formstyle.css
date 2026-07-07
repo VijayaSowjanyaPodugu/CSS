@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(230, 103, 103);
+    text-align: center;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-bottom: 185px;
+    padding-top: 185px;
+    
+}
+
+.formcss {
+    color: azure;
+    text-align: center;
+}
+
+.namecss {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.numbercss {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.emailcss {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.gendercss {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.branchcss {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.skillcss {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+div {
+    border-style: solid;
+    border-color: aliceblue;
+    padding: 50px;
+}
