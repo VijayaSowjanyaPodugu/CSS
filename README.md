@@ -20,17 +20,37 @@ Inline,Internal,External-Style.css(link rel="" href="")
 13.Bordder radius
 
 7-7-26
-1.idetification tag
-2.Padding Top
-3.padding Bottom
-4.paading Left
-5.padding Right
-6.margin left
-7.margin right
-8.margin top
-9.Margin bottom
-10.margin auto
-11.bonrder
+
+Padding:
+1..Padding Top
+2.padding Bottom
+3.paading Left
+4.padding Right
+Margin:
+5.margin left
+6.margin right
+7.margin top
+8.Margin bottom
+9.margin auto
+10.border right
+11.border left
+12.border top
+13.border bottom
+14.display-flex,Justify,grid
+
+
+8-07-26
+
+Selectors:
+1.Element selector
+2.Identifier selector-id(#)
+3.Class selector-(.)
+4.Universal selector-(*)
+5.Grouping slector-(h1,h2,p,h3)
+
+
+
+
 
 
 
