@@ -1,0 +1,179 @@
+/* 1. Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* 2. Header Styles */
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Remove the old horizontal rules visually since we use spacing/borders now */
+hr {
+    display: none; 
+}
+
+/* 3. Navigation / Links Container */
+nav {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+nav ol {
+    list-style: none; /* Removes the numbers for a cleaner look */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* 4. Navigation Links styled as sleek cards */
+nav ol li a {
+    display: block;
+    background-color: #ffffff;
+    color: #2a5298;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #eef2f5;
+}
+
+/* Hover effects for interactive feel */
+nav ol li a:hover {
+    background-color: #2a5298;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(42, 82, 152, 0.2);
+}
+
+/* 5. Footer Styles */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p:last-child {
+    font-weight: bold;
+    color: #1e3c72;
+}/* 1. Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* 2. Header Styles */
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Remove the old horizontal rules visually since we use spacing/borders now */
+hr {
+    display: none; 
+}
+
+/* 3. Navigation / Links Container */
+nav {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+nav ol {
+    list-style: none; /* Removes the numbers for a cleaner look */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* 4. Navigation Links styled as sleek cards */
+nav ol li a {
+    display: block;
+    background-color: #ffffff;
+    color: #2a5298;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #eef2f5;
+}
+
+/* Hover effects for interactive feel */
+nav ol li a:hover {
+    background-color: #2a5298;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(42, 82, 152, 0.2);
+}
+
+/* 5. Footer Styles */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p:last-child {
+    font-weight: bold;
+    color: #1e3c72;
+}
