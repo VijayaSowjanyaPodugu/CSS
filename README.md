@@ -47,6 +47,9 @@ Selectors:
 3.Class selector-(.)
 4.Universal selector-(*)
 5.Grouping slector-(h1,h2,p,h3)
+9-07-26
+1.screen revolution
+2.
 
 
 

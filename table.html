@@ -10,9 +10,47 @@
             justify-content: center;
             padding-top: 250px;
         }
-        .hcss{
+
+        .hcss {
             text-align: center;
             color: black;
+        }
+
+        /* 1. Mobile Phones (Default / Mobile-First) */
+        /* You can write your base styles for mobile here without a media query, 
+   or use this query for specific small-screen tweaks. */
+        @media (max-width: 599px) {
+            table {
+                width: 100%;
+                display: block;
+                overflow-x: auto;
+                /* Adds a scrollbar if the table is too wide for mobile */
+            }
+        }
+
+        /* 2. Tablets (Portrait & Landscape) */
+        @media (min-width: 600px) and (max-width: 1023px) {
+            table {
+                width: 100%;
+            }
+        }
+
+        /* 3. Laptops / Small Desktops */
+        @media (min-width: 1024px) and (max-width: 1439px) {
+            table {
+                width: 90%;
+                /* Slight padding on the sides for better readability */
+                max-width: 1200px;
+            }
+        }
+
+        /* 4. Large Desktops */
+        @media (min-width: 1440px) {
+            table {
+                width: 80%;
+                max-width: 1400px;
+                /* Prevents the table from stretching too wide on massive screens */
+            }
         }
     </style>
 </head>
