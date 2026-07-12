@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="DynamicDivSize.css" rel="stylesheet">
+    <script>
+        function onClickChangeSize() {
+            debugger;
+            var divSize = document.getElementById("txtDivSize").value;
+
+            document.getElementById("divChangeSzie").style.height = divSize+"px";
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <label id="lblDivSize">Div Size</label>
+    <input type="number" id="txtDivSize">
+    <button id="btnSubmit" onclick="onClickChangeSize()">Change Size </button>
+
+    <div id="divChangeSzie" style="background-color: red; border: dotted;"></div>
+
+    
+</body>
+
+</html>

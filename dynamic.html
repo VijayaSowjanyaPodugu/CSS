@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic CSS</title>
+    <style>
+        .hcss {
+            background-color: cyan;
+            text-align: center;
+            color: chocolate;
+
+        }
+
+        .pdynamic {
+            background-color: aquamarine;
+            text-align: justify;
+            color: darkred;
+        }
+
+        
+    </style>
+    <script>
+        function onClickAddcolor() {
+            debugger;
+            document.getElementById("idAdd").classList.add("hcss");
+            document.getElementById("pDynamicRemove").classList.remove("pdynamic");
+
+        }
+
+        function onClickChangeStyle() {
+            let multiple = document.getElementById("multiple");
+            multiple.style.backgroundColor = "Orange";
+            multiple.style.color = "white";
+            multiple.style.fontSize = "25px";
+            multiple.style.borderRadius = "10px";
+            multiple.style.border = "2px solid black"
+            multiple.style.textAlign="center";
+
+        }
+        function onClickToggle(){
+            document.getElementById("idAdd").classList.toggle("hcss");
+        }
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <h1 id="idAdd">Dynamic CSS</h1>
+        <p id="pDynamicRemove" class="pdynamic">Dynamic CSS is CSS that changes automatically based on user actions,
+            conditions, or JavaScript, instead of remaining fixed.</p>
+        <button id="onClick" onclick="onClickAddcolor()">Add Color</button>
+    </div>
+
+    <div>
+        <h1 id="multiple">Change Multiple Style</h1>
+        <button id="UpdateStyle" onclick="onClickChangeStyle()">Change Style</button>
+        <button id="btnToggle" onclick="onClickToggle()">Toggle</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic ColorC hange</title>
+    <link rel="stylesheet" href="DynamicColorChange.css">
+    <script>
+        function onClickBackgroundColor(){
+            debugger;
+            var backgroundColor =document.getElementById("txtBackgroundColor").value;
+            document.body.style.backgroundColor=backgroundColor;
+             
+        }
+    </script>
+</head>
+
+<body >
+    <lable id="lblBackgroundColor">BackgroundColor</lable>
+        <input type="text" id="txtBackgroundColor">
+        <button id="btnSubmit" onclick="onClickBackgroundColor()" >Background Color</button>
+        <div id="btnSubmit"></div>
+</body>
+
+</html>

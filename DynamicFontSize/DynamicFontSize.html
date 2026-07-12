@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic ColorC hange</title>
+    <link rel="stylesheet" href="DynamicFontSize.css">
+    <script>
+        function onClickFontSize(){
+            debugger;
+            var IncreaseFontSize =document.getElementById("txtFontSize").value;
+            document.getElementById("pResult").style.fontSize=IncreaseFontSize+"px";
+             
+        }
+    </script>
+</head>
+
+<body >
+    <lable id="lblFontSize">Increase Font Size</lable>
+        <input type="text" id="txtFontSize">
+        <button id="btnSubmit" onclick="onClickFontSize()" >Font Size </button>
+        <p id="pResult" style="background-color: bisque;text-align: center;color: chocolate;"> Font Size Increases on this Paragraph. </p>
+</body>
+
+</html>
