@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class List Add</title>
+        <link rel="stylesheet" href="DynamicClassAdd&Remove.css">
+        <style>
+            .pclass{
+                color: brown;
+                font-size: medium;
+                width: auto;
+                background-color: bisque;
+            }
+            .hcss{
+                color: rgb(220, 20, 127);
+                font-size: large;
+
+            }
+
+        </style>
+        <script>
+            debugger;
+            function onClickAddColor(){
+                document.getElementById("pClassListAdd").classList.add("pclass");
+                document.getElementById("hClass").classList.remove("hcss");
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="hClass" class="hcss">Dynamic Class</h1>
+        <p id="pClassListAdd">Add CSS Class Dynamically</p>
+        <button id="btnSubmit" onclick="onClickAddColor()">Add Class</button>
+
+    </body>
+</html>
