@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fixed&Precisionr</title>
+        <script>
+            function onClickFixedNumber(){
+                debugger;
+                let inputDecimal=Number(document.getElementById("txtNumber").value);
+                let count=Number(document.getElementById("txtCount").value);
+                result=inputDecimal.toFixed(count);
+                alert(result);
+            }
+             function onClickPrecisionNumber(){
+                let inputDecimal=  Number(document.getElementById("txtNumber").value);
+                let count= Number(document.getElementById("txtCount").value);
+                result=inputDecimal.toPrecision(count);
+                alert(result);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>Input Decimal</label>
+            <input type="number" id="txtNumber">
+            <label>Number Count</label>
+            <input type="number" id="txtCount"> <br>
+            <button id="btnFixed" onclick="onClickFixedNumber()">FixedNumber</button>
+            <button id="btnPrecision" onclick="onClickPrecisionNumber()">PrecisionNumber</button>
+        </form>
+    </body>
+</html>

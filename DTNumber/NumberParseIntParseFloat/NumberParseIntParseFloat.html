@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Number</title>
+        <script>
+        function onClickNumber(){
+            debugger;
+            let number=document.getElementById("txtNumber").value;
+            let result=Number(number);
+            alert(result);
+        }
+        function onClickParseInt(){
+        
+          debugger;
+            let number=document.getElementById("txtNumber").value;
+            let result=parseInt(number);
+            alert(result);
+        }
+        function onClickParseFloat(){
+        
+          debugger;
+            let number=document.getElementById("txtNumber").value;
+            let result=parseFloat(number);
+            alert(result);
+        }
+        </script>
+
+    </head>
+    <body>
+        <label>Number</label>
+        <input type="text" id="txtNumber"><br>
+        <button id="btnNumber" onclick="onClickNumber()">Number</button>
+        <button id="btnParseInt" onclick="onClickParseInt()">ParseInt</button>
+        <button id="btnParseFloat" onclick="onClickParseFloat()">ParseFloat</button>
+    </body>
+</html>
