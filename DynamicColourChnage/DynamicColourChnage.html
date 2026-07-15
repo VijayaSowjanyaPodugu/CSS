@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>colour</title>
+    <style></style>
+    :root{--main-color:blue;
+    }
+    .box{
+    background:var(--main-color);
+    }
+    </style>
+    <script>
+        function onClickColor() {
+            document.documentElement.style.setProperty("--main - color","purple");
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="txtColour" class="root">change the colour</h1>
+    <h2 id="txtdynamic class=box">Dynamic css variable</h2>
+    <button onclick="onClickColor()">color</button>
+</body>
+
+</html>

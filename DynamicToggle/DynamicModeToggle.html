@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mode Toggle</title>
+        <style>
+            .dark{
+                background-color: black;
+                color:white;
+            }
+        </style>
+        <script>
+            function onClickModeToggle(){
+                document.body.classList.toggle("dark");
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="txtMode" class="darkcss">Mode Toggle</h1>
+        <button id="btnsubmit" onclick="onClickModeToggle()">Mode Toggle</button>
+    </body>
+</html>

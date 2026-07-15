@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tittle>
+        Porgress Bar
+    </tittle>
+    <style>
+        .container {
+            width: 30px;
+            height: 30px;
+            border: 1px soild black;
+
+        }
+
+        #progress {
+            width: 0;
+            height: 100%;
+            background: green;
+
+        }
+    </style>
+    <script>
+
+        let value = 0;
+        function onClickIncrease() {
+            debugger;
+            value += 10;
+            document.getElementById("Progress").style.width = value + "%";
+        } 
+    </script>
+</head>
+
+<body>
+    <div id="Progress"></div>
+    <div class="container"></div>
+    <button onclick="onClickIncrease()">Porgress</button>
+</body>
+
+</html>
